@@ -278,5 +278,18 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 12,
+      quickFind: true,
+      name: '开屏广告-摇一摇',
+      desc: '点击跳过',
+      rules: [
+        {
+          activityIds:  'com.netease.cloudmusic.activity.MainActivity',
+          matches:  '[id="com.netease.cloudmusic:id/skipBtn"]',
+          snapshotUrls: 'https://i.gkd.li/i/14393014',
+        },
+      ],
+    },
   ],
 });
