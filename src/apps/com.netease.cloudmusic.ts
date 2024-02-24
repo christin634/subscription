@@ -174,7 +174,7 @@ export default defineAppConfig({
         {
           key: 5,
           name: '开通VIP听整首-VIP支付弹窗',
-          activityIds: 'com.netease.cloudmusic.activity.MainActivity',
+          activityIds: 'com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity',
           matches:
             '[text*="开通VIP听整首"] + @ViewGroup[childCount=1] > ViewGroup > ImageView',
           snapshotUrls: 'https://i.gkd.li/i/14393165',
