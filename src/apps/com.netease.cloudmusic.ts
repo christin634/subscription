@@ -171,6 +171,14 @@ export default defineAppConfig({
             '[text*="搭配会员音效"] + @ViewGroup[childCount=1] > ImageView',
           snapshotUrls: 'https://i.gkd.li/import/13391498',
         },
+        {
+          key: 5,
+          name: '开通VIP听整首-VIP支付弹窗',
+          activityIds: 'com.netease.cloudmusic.activity.MainActivity',
+          matches:
+            '[text*="开通VIP听整首"] + @ViewGroup[childCount=1] > ViewGroup > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/14393165',
+        },
       ],
     },
     {
